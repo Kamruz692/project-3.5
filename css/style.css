@@ -1,0 +1,129 @@
+body{}
+.one{
+    color:goldenrod;
+
+}
+.one:hover{
+    color:red;
+    font-size: 60px;
+    background-color:black;
+}
+.two{
+    color:red;
+}
+.two:hover{
+    color:white;
+    font-size: 70px;
+    background-color:blueviolet;
+}
+.three{
+    color:greenyellow;
+}
+.three:hover{
+    color:blue;
+    font-size: 50px;
+    background-color:aqua;
+}
+input:focus{
+    font-weight:700;
+    font-size: 35px;
+    color:red;
+}
+li:first-child{
+    background-color:red;
+}
+li:last-child{
+    background-color:green;
+}
+
+.num ul li:nth-child(2n+1){
+    background-color:red;
+}
+a:visited{
+    color:blue;
+}
+h1::before{
+    content:"Hello";
+    color:white;
+    font-size:15px;
+    background-color:black;
+}
+.one::after{
+    content:" bye";
+    color:red;
+    font-size:18px;
+
+}
+p::before{
+    content:"❤️"
+}
+
+.container{
+    background-color:blue;
+}
+.container div{
+    width: 100px;
+    height: 100px;
+
+}
+#first{
+    background-color:red;
+}
+#second{
+    background-color:green;
+    position:relative;
+    left:100px;
+}
+#third{
+    background-color: yellow;
+}
+
+.cont{
+    background-color:aqua;
+    margin-top: 100px;
+}
+.cont div{
+    width: 100px;
+    height: 100px;
+}
+#four{
+    background-color:red;
+}
+#five{
+    background-color:green;
+    position:absolute;
+    left:100px;
+}
+#six{
+    background-color: yellow;
+}
+.contol{
+    background-color:aqua;
+    margin-top: 100px;
+}
+.contol div{
+    width: 100px;
+    height: 100px;
+}
+#seven{
+    background-color:red;
+}
+#eight{
+    background-color:green;
+    position:static;
+    left:100px;
+}
+#nine{
+    background-color: yellow;
+}
+
+h3{
+    color:cyam;
+    font-size: 50px;
+}
+.name{
+    color:darkgoldenrod;
+}
+#kamrul{
+    color:green !important;
+}
